@@ -1,3 +1,28 @@
 hi
 brindhs
 I Love You
+Here is a list of common Git commands used to configure Git settings:
+
+git config --global user.name "Your Name": Set the global username for commits.
+
+git config --global user.email "you@example.com": Set the global email address for commits.
+
+git config --global color.ui auto: Enable colorized output globally.
+
+git config --global alias.co checkout: Create a global alias (e.g., co for checkout).
+
+git config --list: List all Git configuration settings across system, global, and local levels.
+
+git config --global --list: List all global Git configuration settings.
+
+git config -l or git config --list: List Git configurations for the current scope (default is local).
+
+git config -e or git config --edit: Open the Git configuration file in the default editor.
+
+git config --local user.name "Local Name": Set username for the current repository only.
+
+git config --system user.name "System Name": Set username for all users on the system.
+
+git config --global init.defaultBranch main: Set default branch name to main globally.
+
+Git config settings can be made at three levels: system-wide (--system), user-global (--global), or local repository-specific (--local).
