@@ -5,9 +5,7 @@ Here is a list of common Git commands used to configure Git settings:
 
 git config --global user.name "Your Name": Set the global username for commits.
 
-git config --global user.email "you@example.com": Set the global email address for commits.
 
-git config --global color.ui auto: Enable colorized output globally.
 
 git config --global alias.co checkout: Create a global alias (e.g., co for checkout).
 
